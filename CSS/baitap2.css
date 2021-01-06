@@ -1,0 +1,27 @@
+
+.page {
+    width: 60%;
+    box-sizing: border-box;
+}
+img{
+    width: 100px;
+    padding-left: 50px;
+    border-radius: 100%;
+}
+.top {
+    width: 100%;
+    background-color: darkgrey;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.right{
+    padding-left: 300px;
+    width: 70%;
+}
+.left{
+    margin-top: -120px;
+    margin-left: 20px;
+    background-color: lightgray;
+    width: 30%
+}
