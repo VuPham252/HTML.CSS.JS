@@ -66,7 +66,7 @@ img{
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .artical p{
@@ -87,28 +87,33 @@ img{
     font-weight: 600;
     text-transform: uppercase;
 }
-
-.continue-reading a{
-    font-weight: bold;
-    color: grey;
-    text-transform: uppercase;
+ a.text-img{
     text-decoration: none;
+     color: black;
+}
 
-}
-.continue-reading a:hover i{
-    margin-left: 20px;
-    opacity: 0;
-}
-.continue-reading i{
-    transition: all 300ms;
 
-}
+
+
 .post img{
     width: 100%;
     height: 350px;
     object-fit: cover;
 }
 
+.text-img:hover i{
+    margin-left: 20px;
+    opacity: 0;
+}
+.text-img i{
+    transition: all 300ms;
+
+}
+.text-img b{
+    font-weight: 700;
+    color: grey;
+    text-transform: uppercase;
+}
 /*end block*/
 
 
@@ -120,7 +125,7 @@ img{
 .footer-container
 {
     width: 100%;
-    margin: 0 auto;
+    margin: 40px auto;
     background-color: #2b2b2b;
 }
 ._1khoi
@@ -191,115 +196,6 @@ img{
 }
 /* end footer */
 
-@media only screen and (max-width: 992px)
-{
-    .menu-left
-    {
-        display: none;
-    }
-    .navbar-brand
-    {
-        padding: 0;
-    }
-    ._1khoi ul li
-    {
-        border: none;
-    }
-}
-@media only screen and (max-width: 1520px)
-{
-    .banner-top
-    {
-        min-height: 65.3522vh;
-    }
-    .background-2 .image-logo
-    {
-        width: 45%;
-    }
-    .background-2-block p
-    {
-        font-size: 20px;
-    }
-}
-@media only screen and (max-width: 1140px)
-{
-    .banner-top
-    {
-        min-height: 50.3522vh;
-    }
-    .banner-top-block h1
-    {
-        font-size: 35px;
-    }
-    .background-2 .image-logo
-    {
-        width: 45%;
-    }
-    .background-2-block p
-    {
-        font-size: 20px;
-    }
-    @media only screen and (max-width: 960px)
-    {
-        .banner-top
-        {
-            min-height: 37.3522vh;
-        }
-        .banner-top-block h1
-        {
-            font-size: 30px;
-        }
-        .banner-top-block h4
-        {
-            font-size: 20px;
-        }
-        .background-2-block p
-        {
-            font-size: 15px;
-        }
-    }
-    @media only screen and (max-width: 720px)
-    {
-        .banner-top
-        {
-            min-height: 35.3522vh;
-        }
-        .banner-top-block h1
-        {
-            font-size: 25px;
-        }
-        .banner-top-block h4
-        {
-            font-size: 15px;
-        }
-    }
-    @media only screen and (max-width: 540px)
-    {
-        .banner-top
-        {
-            min-height: 30.3522vh;
-        }
-        .banner-top-block h1
-        {
-            font-size: 20px;
-        }
-        .banner-top-block h4
-        {
-            font-size: 10px;
-        }
-        .banner-top-block a
-        {
-            font-size: 10px;
-        }
-        .background-2-left-block
-        {
-            width: 100%;
-        }
-        .background-2-left-block img
-        {
-            width: 100%;
-        }
-    }
 
 
 
