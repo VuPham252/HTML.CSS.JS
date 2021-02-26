@@ -1,0 +1,96 @@
+.header {
+    margin-bottom: 10px;
+}
+
+#logo{
+    display: inline-block;
+}
+
+#search-section {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 50px;
+}
+
+#search-section a {
+    display: block;
+    margin-left: 160px;
+}
+
+.banner span{
+    margin-right: 0;
+}
+
+.banner{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #9da337;
+}
+
+.side-bar {
+    width: 15%;
+      background-color: #e1d3b4;
+}
+
+.side-bar a {
+    display: block;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+.side-bar a:hover {
+    background-color: #d0d495;
+}
+
+.inner-container {
+    display: flex;
+}
+
+.content {
+    width: 80%;
+}
+
+#showcase-search {
+    height: 50px;
+    background-color: #daddb4;
+    margin-bottom: 10px;
+}
+
+#showcase-search p {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.search-option {
+    background-color: #ebedd7;
+    margin-top: 20px;
+}
+
+.search-option p {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.search-option select {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.search-option input {
+    margin: 0px;
+    margin-left: 10px;
+}
+
+.search-option button {
+    margin-left: 10px;
+}
+
+.banner2 {
+    background-color: #e1d3b4;
+}
+
+.banner2 button{
+    margin-right: 0;
+}
