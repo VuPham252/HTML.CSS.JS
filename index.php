@@ -1,2 +1,2 @@
-<?php include("baitap5.html");
+<?php include("baithi.html");
 ?>
