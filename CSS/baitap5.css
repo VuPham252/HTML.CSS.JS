@@ -1,0 +1,84 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color:#222222;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: 'Open Sans';
+    background-color: #e4e4e4;
+}
+
+.section-header {
+    background-image: url('../imgs/coffee.jpg');
+    height: 700px;
+    margin: 0 auto;
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+.container{
+    width: 100%;
+}
+.logo{
+    float:left;
+    width:20%
+}
+.logo a{
+    color:white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 70px;
+    padding-left: 40px;
+}
+.toplinks{
+    float: right;
+    width: 80%;
+
+}
+.toplinks ul{
+    float: right;
+    margin-right: 550px;
+}
+
+.toplinks li{
+    float: left;
+    padding-left: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.toplinks a{
+    font-size: 14px;
+    color:white;
+    text-decoration: none;
+    line-height: 70px;
+    padding-right: 20px;
+}
+.artical {
+    width: 100%;
+    padding-top: 300px;
+}
+.artical p{
+    text-align: center;
+}
+.artical h1{
+    font-size: 40px;
+    text-align: center;
+    line-height: 40px;
+}
+.read{
+    margin-top: 50px;
+    margin-left: calc(50% - 50px);
+    border: 1px solid white;
+    line-height: 30px;
+    width: 100px
+}
+.read p{
+    text-align: center;
+    text-transform: uppercase;
+}
